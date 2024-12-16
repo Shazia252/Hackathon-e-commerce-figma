@@ -31,11 +31,11 @@ function Footer() {
               className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-xs outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
-          <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">
+          <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-[#FB2E86] border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">
             Sign-Up
           </button>
         </div>
-        <p className="text-gray-500 text-sm mt-2 md:text-left text-center">
+        <p className="text-[#8A8FB9] text-sm mt-2 md:text-left text-center">
         Contact Info
           <br className="lg:block hidden" />
           17 Princess Road, London, Greater London NW1 8JR, UK
@@ -48,19 +48,19 @@ function Footer() {
         </h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-gray-600 hover:text-gray-800  ml-6">Laptops & Computers</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800  ml-6">Laptops & Computers</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800 ml-6">Cameras & Photography</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800 ml-6">Cameras & Photography</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800 ml-6">Smart Phones & Tablets</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800 ml-6">Smart Phones & Tablets</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800 ml-6">Video Games & Consoles</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800 ml-6">Video Games & Consoles</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800 ml-6">Waterproof Headphones</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800 ml-6">Waterproof Headphones</a>
           </li>
         </nav>
       </div>
@@ -68,19 +68,19 @@ function Footer() {
         <h2 className="title-font font-bold text-black tracking-widest text-lg mb-3">Customer Care</h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-gray-600 hover:text-gray-800">My Account</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">My Account</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Discount</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">Discount</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Returns</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">Returns</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Orders History</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">Orders History</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Order Tracking</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">Order Tracking</a>
           </li>
         </nav>
       </div>
@@ -88,37 +88,36 @@ function Footer() {
         <h2 className="title-font font-bold text-black tracking-widest text-lg mb-3">Pages</h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Blog</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">Blog</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Browse the Shop</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">Browse the Shop</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Category</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">Category</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Pre-Built Pages</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">Pre-Built Pages</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">Visual Composer Elements</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">Visual Composer Elements</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">WooCommerce Pages</a>
+            <a className="text-[#8A8FB9] hover:text-gray-800">WooCommerce Pages</a>
           </li>
         </nav>
       </div>
       
     </div>
   </div>
-  <div className="bg-[#E7E4F8]">
-    <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+  <div className="bg-[#EEEFFB]">
+    <div className="container px-5 py-6 mx-auto flex bg-[#d7d2f4] items-center sm:flex-row flex-col">
       
-      <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+      <p className="text-sm text-gray-500  sm:ml-6 sm:mt-0 mt-4">
         © 2024 Hekto —
         <a
           href="https://twitter.com/knyttnev"
-          rel="noopener noreferrer"
-          className="text-gray-600 ml-1"
+          className="text-gray-600 ml-1 "
           target="_blank"
         >@Right Reserved</a>
       </p>

@@ -6,30 +6,30 @@ const FeaturedProducts = () => {
       name: "Cantilever chair",
       code: "Code - Y523201",
       price: "$42.00",
-      image: "/chair3.jpeg", // Replace with actual image paths
+      image: "/chairt2.png", // Replace with actual image paths
     },
     {
       name: "Cantilever chair",
       code: "Code - Y523201",
       price: "$42.00",
-      image: "/chair4.jpeg",
+      image: "/chair8.png",
     },
     {
       name: "Cantilever chair",
       code: "Code - Y523201",
       price: "$42.00",
-      image: "/chair5.jpeg",
+      image: "/chair7.png",
     },
     {
       name: "Cantilever chair",
       code: "Code - Y523201",
       price: "$42.00",
-      image: "/chair2.jpeg",
+      image: "/chair6.png",
     },
   ];
 
   return (
-    <section className="bg-purple-50 py-10 px-6">
+    <section className="bg-gray-100 py-10 px-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
           Featured Products
@@ -50,11 +50,11 @@ const FeaturedProducts = () => {
                 />
               </div>
               <div className="mt-4 text-center">
-                <h3 className="text-lg font-semibold text-gray-800">
+                <h3 className="text-lg font-medium text-pink-500">
                   {product.name}
                 </h3>
-                <p className="text-sm text-gray-500">{product.code}</p>
-                <p className="text-lg font-bold text-gray-800 mt-2">
+                <p className="text-sm text-[#151875]">{product.code}</p>
+                <p className="text-lg font-medium text-[#151875] mt-2">
                   {product.price}
                 </p>
               </div>

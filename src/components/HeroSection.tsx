@@ -46,7 +46,7 @@ function HeroSection() {
   const current = slides[currentSlide];
 
   return (
-    <section className="relative bg-gray-100 py-10 md:py-20 px-5 md:px-20 flex flex-col md:flex-row items-center justify-between overflow-hidden">
+    <section className="relative bg-[#F2F0FF] py-10 md:py-20 px-5 md:px-20 flex flex-col md:flex-row items-center justify-between overflow-hidden">
       {/* Left Column: Lamp */}
       <div className="md:w-1/4 flex justify-center items-start relative">
         <div className="absolute top-[-350px] left-[-40px] z-10">
@@ -90,10 +90,7 @@ function HeroSection() {
             className="object-contain w-full h-auto"
           />
         </div>
-        {/* Discount Badge (if needed) */}
-        {/* <div className="absolute top-10 right-5 bg-gradient-to-r from-blue-400 to-blue-600 text-white text-xs font-medium py-2 px-4 rounded-full">
-          {current.discountText}
-        </div> */}
+        
       </div>
 
       {/* Navigation Dots */}

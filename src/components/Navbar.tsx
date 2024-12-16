@@ -16,11 +16,17 @@ export default function Navbar() {
           
           {/* Mobile Search and Menu Toggle */}
           <div className="flex items-center space-x-4 md:hidden">
-            <button onClick={() => setSearchOpen(!searchOpen)} className="focus:outline-none relative">
+            <button 
+              onClick={() => setSearchOpen(!searchOpen)}
+              className="focus:outline-none relative"
+            >
               <div className="absolute -inset-1 bg-pink-700/30 z-0"></div>
               <FaSearch className="text-2xl text-gray-600 relative z-10" />
             </button>
-            <button className="text-3xl focus:outline-none" onClick={() => setMenuOpen(!menuOpen)}>
+            <button
+              className="text-3xl focus:outline-none"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
               {menuOpen ? '✕' : '☰'}
             </button>
           </div>
@@ -30,7 +36,18 @@ export default function Navbar() {
         {searchOpen && (
           <div className="md:hidden w-full absolute top-full left-0 z-10 bg-white p-4 border-b">
             <div className="flex items-center space-x-2">
-              <input type="text" placeholder="Search..." className=" p-2 border border-gray-300 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-pink-600"/>
+              <input
+                type="text"
+                placeholder="Search..."
+                className="
+                  p-2 
+                  border 
+                  border-gray-300 
+                  rounded-md 
+                  w-full 
+                  focus:outline-none 
+                  focus:ring-2 
+                  focus:ring-pink-600"/>
               <button className="bg-pink-600 text-white px-3 py-2 rounded-md hover:bg-pink-700">
                 <FaSearch />
               </button>
@@ -39,12 +56,18 @@ export default function Navbar() {
         )}
 
         {/* Navigation Links - Moved to center */}
-        <div className={`w-full md:w-auto ${menuOpen ? 'block' : 'hidden'} md:block transition-all duration-300 ease-in-out
+        <div className={`w-full md:w-auto ${menuOpen ? 'block' : 'hidden'} 
+          md:block 
+          transition-all duration-300 ease-in-out
           md:mx-auto`}>
           <ul className="flex flex-col md:flex-row items-center gap-10 space-y-4 md:space-y-0 md:space-x-6 text-center">
             {['Home', 'Pages', 'Products', 'Blog', 'Shop', 'Contact'].map((item) => (
-            <li key={item} className="w-full md:w-auto">
-            <Link href={'/${item.toLowerCase()}'} className="block py-2 md:py-0 hover:text-pink-600">{item}</Link>
+              <li 
+                key={item} 
+                className="w-full md:w-auto">
+                <Link href={'/${item.toLowerCase()}'} 
+                  className="block py-2 md:py-0 hover:text-pink-600">{item}
+                </Link>
               </li>
             ))}
           </ul>
@@ -55,26 +78,8 @@ export default function Navbar() {
           <input
             type="text"
             placeholder="Search..."
-            className="
-              p-2 
-              border 
-              border-gray-300 
-              rounded-md 
-              w-48 
-              lg:w-64 
-              focus:outline-none 
-              focus:ring-2 
-              focus:ring-pink-600
-            "
-          />
-          <button 
-            className="
-              relative
-              bg-transparent 
-              text-gray-600 
-              hover:text-pink-600
-              focus:outline-none"
-          >
+            className="p-2 border  border-gray-300 rounded-md w-48 lg:w-64 focus:outline-none focus:ring-2  focus:ring-pink-600"/>
+          <button className="relative bg-transparent text-gray-600 hover:text-pink-600 focus:outline-none">
             <div className="absolute -inset-2 bg-[#FB2E86]"></div>
             <FaSearch className="text-2xl relative z-10" />
           </button>
@@ -82,4 +87,4 @@ export default function Navbar() {
       </div>
     </nav>
   );
-};
+}

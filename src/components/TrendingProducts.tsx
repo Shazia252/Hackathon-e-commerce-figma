@@ -3,29 +3,29 @@ import React from "react";
 const TrendingProducts = () => {
     const products = [
         {
-          name: "Comfort Handy Craft",
+          name: "Cantilever chair",
            price: "26.00",
            originalPrice: "42.00",
-          image: "/chair6.png",
+          image: "/chairt3.png",
         },
         {
-          name: "Comfort Handy Craft",
+          name: "Cantilever chair",
           price: "26.00",
           originalPrice: "42.00",
-          image: "/chair7.png",
+          image: "/chairt02.png",
           
         },
         {
-          name: "Comfort Handy Craft",
+          name: "Cantilever chair",
           price: "26.00",
           originalPrice: "42.00",
-          image: "/chair8.png",
+          image: "/chairt03.png",
         },
         {
-          name: "Comfort Handy Craft",
+          name: "Cantilever chair",
           price: "26.00",
           originalPrice: "42.00",
-          image: "/chair9.png",
+          image: "/chairt04.png",
         },
     ]
     
