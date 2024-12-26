@@ -5,7 +5,7 @@ const MyBlog = () => {
     <section className="text-gray-600 body-font">
       <img className="flex justify-center item-center md:ml-[300px] lg:h-20 md:h-4 w-70" src="/transp.png" alt="img" />
 
-      <h2 className="text-2xl md:text-3xl font-bold text-blue-800 text-center mb-1">Leatest Blog</h2>
+      <h2 className="text-2xl md:text-3xl font-bold text-[#151875] text-center mb-1">Leatest Blog</h2>
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap -m-4">
               <div className="p-4 md:w-1/3">

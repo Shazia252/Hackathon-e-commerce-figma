@@ -3,7 +3,7 @@ import React from 'react'
 const TopCate = () => {
     return (
     <section className="text-gray-600 body-font">
-        <h2 className="text-2xl md:text-3xl font-bold text-blue-800 text-center mb-1">Top Categories</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-[#151875] text-center mb-1">Top Categories</h2>
         <div className="container px-1 py-24">
           <div className="flex justify-center m-4">
           <div className="lg:w-1/4 lg:mb-0 mb-6 p-4">

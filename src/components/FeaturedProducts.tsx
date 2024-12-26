@@ -31,7 +31,7 @@ const FeaturedProducts = () => {
   return (
     <section className="bg-gray-100 py-10 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
+        <h2 className="text-2xl font-bold text-center text-[#151875] mb-8">
           Featured Products
         </h2>
         {/* Responsive grid layout */}
