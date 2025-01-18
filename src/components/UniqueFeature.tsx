@@ -9,7 +9,7 @@ const UniqueFeature = () => {
            <div className="flex-1">
              {/* Product Image */}
              <img
-               src="/sofauniq.png"
+               src="/Chair (3).png"
                alt="Product"
                className="rounded-full bg-[#f3e0eb] shadow-md w-full max-w-sm mx-auto"
              />
